@@ -5,11 +5,11 @@ cask "hone" do
   on_macos do
     on_intel do
       url "https://github.com/pricklywiggles/hone/releases/download/v#{version}/hone_#{version}_darwin_amd64.tar.gz"
-      sha256 "66f57a957501d537819a18d1edd8983f6e69aa3dfc2a75f24bb73ef67df974a3"
+      sha256 "b8127338753e0a7f0d43b0d4227b14eec65144a7cc550fd600bb16f2b77b9e0d"
     end
     on_arm do
       url "https://github.com/pricklywiggles/hone/releases/download/v#{version}/hone_#{version}_darwin_arm64.tar.gz"
-      sha256 "fc9c91e0002cba6f55eec9fc8790d11e8511dbfa6b6ea521dfa54f4f0058a5aa"
+      sha256 "d0a4f978b55f9d757bd88b64eedd9d3a99e4fdacd5b4728cb831c3a56ce992ca"
     end
   end
 
